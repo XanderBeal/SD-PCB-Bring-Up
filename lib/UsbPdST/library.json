@@ -1,0 +1,9 @@
+{
+  "name": "UsbPdST",
+  "version": "1.0.0",
+  "build": {
+    "includeDir": "inc",
+    "srcFilter": ["+<*>", "-<usbpd_pwr_hw_if.c>"],
+    "flags": ["-I ../../include"]
+  }
+}
